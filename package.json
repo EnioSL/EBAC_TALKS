@@ -1,7 +1,6 @@
 {
-  "name": "EBAC_TALKS",
+  "name": "ebac_talks",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "build": "parcel build src/index.html",
@@ -107,5 +106,7 @@
     "update-browserslist-db": "^1.1.0",
     "utility-types": "^3.11.0",
     "weak-lru-cache": "^1.2.2"
-  }
+  },
+  "main": "index.js",
+  "description": ""
 }
